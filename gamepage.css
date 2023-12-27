@@ -1,0 +1,167 @@
+
+
+
+
+div{
+  width: 800px; /* Kutunun genişliği */
+  height: 100px; /* Kutunun yüksekliği */
+margin-top: 200px;
+
+  
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  /* Ekleyeceğiniz arka plan resminin URL'sini buraya ekleyin */
+  background-image: url("background4.png");
+  background-size: cover; 
+  /* background-position: center;  */
+  background-repeat: no-repeat; /* Resmin tekrarı yok */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+ 
+}
+
+
+#container1 {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+    }
+
+    #img1 {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      z-index: 1;
+    }
+
+    #buton1 {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      z-index: 2;
+      background-image: url("soru.png");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      border: none;
+    }
+
+    #container2 {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+    }
+
+    #img2 {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      z-index: 1;
+    }
+
+    #buton2 {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      z-index: 2;
+      background-image: url("soru.png");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      border: none;
+    }
+    #container4 {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+    }
+
+    #img4 {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      z-index: 1;
+    }
+
+    #buton4 {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      z-index: 2;
+      background-image: url("soru.png");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      border: none;
+    }
+    #container3 {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+    }
+    #img3 {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      z-index: 1;
+    }
+
+    #buton3 {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      z-index: 2;
+      background-image: url("soru.png");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      border: none;
+    }
+    #container5 {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+    }
+    #img5 {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      z-index: 1;
+    }
+
+    #buton5 {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      z-index: 2;
+      background-image: url("soru.png");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      border: none;
+    }
+    .hidden {
+      display: none;
+    }
+    .false{ 
+        width: 100px;
+      height: 100px;
+      position: absolute;
+      z-index: 3;
+      border: none;
+    }
+  
+   #link{
+    margin-left: -330px;
+    margin-top: -150px;
+   }
